@@ -27,6 +27,7 @@ body {
 .container {
     text-align: center;
     margin-bottom: 2rem;
+    max-width: 600px;
     background-color: var(--color-blanquillo);
     -webkit-box-shadow: 0px 0px 9px 0px #333333;
     box-shadow: 0px 0px 9px 0px #333333;
@@ -74,6 +75,7 @@ body {
 .container-profile-img {
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 1rem;
     margin-right: 1.6rem;
 }
@@ -81,11 +83,12 @@ body {
 .profile-text {
     margin-left: 4rem;
     padding: 0.5rem;
-    margin-top: 4rem;
     color: rgb(31, 31, 31);
     text-shadow: -1px -1px 1px rgba(37, 37, 37, 0.1), 1px 1px 1px rgba(0, 0, 0, .5);
 }
-
+.img-img{
+    display: none;
+}
 .img-profile {
     margin-right: 1rem;
     width: 45%;
@@ -96,23 +99,23 @@ body {
 }
 
 .item-about-me-scroll {
-    margin-left: 1rem;
-    border: 1px var(--color-blanquillo) solid;
-    width: 20rem;
-    height: 20rem;
-    font-size: 1.8rem;
+    margin-left:1rem;
+    border:1px var(--color-blanquillo) solid;
+    width:100%;
+    height:20rem;
+    font-size:1.6rem;
     overflow: scroll;
-    -webkit-box-shadow: 1px 3px 15px -4px #000000;
-    box-shadow: 1px 3px 15px -4px #000000;
     border-radius:1rem;
     margin-right:2rem;
-    margin-bottom:rem;
+    margin-bottom:1rem;
+    -webkit-box-shadow: 1px 3px 15px -4px #000000;
+    box-shadow: 1px 3px 15px -4px #000000;
 }
 
 
 .container-about-me {
+    
     margin-left: 1rem;
-    margin:3.5rem;
 }
 
 
@@ -124,13 +127,13 @@ body {
 
 .container-about-me {
     display: flex;
-    justify-content: space-between;
+    justify-content:space-around;
     text-align: center;
     color: #d9d9d9;
     color: var(--color-blanquillo);
     text-shadow: -1px -1px 1px rgba(37, 37, 37, 0.1), 1px 1px 1px rgba(0, 0, 0, .5);
     margin-bottom: 3rem;
-    
+
 }
 
 .info {
@@ -162,7 +165,7 @@ body {
     background-color: var(--color-sub);
     border-radius:50%;
     margin: 0.5rem;
-    width: 20%;
+    width:20%;
     -webkit-box-shadow: 1px 3px 15px -4px #000000;
     box-shadow: 1px 3px 15px -4px #000000;
 }
@@ -190,8 +193,7 @@ body {
 .herammientas{
     text-align: center;
     color: var(--color-blanquillo);
-    -webkit-box-shadow: 1px 3px 15px -4px #000000;
-    box-shadow: 1px 3px 15px -4px #000000;
+    margin-bottom:4rem;
 }
 .bi-tools{
     font-size:5rem;
@@ -215,18 +217,22 @@ body {
 }
 .container-herramientas{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap:wrap;
     justify-content: space-between;
+
 }
 
 .container-footer{
     background-color: var(--color-blanquillo);
     text-align: center;
     text-shadow: -1px -1px 1px rgba(37, 37, 37, 0.1), 1px 1px 1px rgba(0, 0, 0, .5);
+    
 }
 
 .footer{
     padding:5rem;
+    -webkit-box-shadow: 1px 3px 15px -4px #000000;
+    box-shadow: 1px 3px 15px -4px #000000;
 }
 .bi-boxes{
     font-size:3rem;
